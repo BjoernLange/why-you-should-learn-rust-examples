@@ -11,6 +11,7 @@ public:
             return false;
         } else {
             this->value = value;
+            has_value = true;
             return true;
         }
     }
