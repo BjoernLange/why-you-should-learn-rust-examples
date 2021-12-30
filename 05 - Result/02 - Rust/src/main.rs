@@ -35,9 +35,9 @@ fn run(queue: &mut Queue) {
     queue.enqueue(42);
     queue.enqueue(84);
 
-    println!("Expect 21: {}", queue.dequeue());
-    println!("Expect 42: {}", queue.dequeue());
-    println!("Expect 84: {}", queue.dequeue());
+    println!("Expect 21: {:?}", queue.dequeue());
+    println!("Expect 42: {:?}", queue.dequeue());
+    println!("Expect 84: {:?}", queue.dequeue());
 }
 
 fn main() {
