@@ -20,9 +20,11 @@ fn do_something(a: A) {
     match a {
         U => println!("{:?}: U", a),
         V => println!("{:?}: V", a),
+        //W => println!("{:?}: W", a),
         X => println!("{:?}: X", a),
         Y => println!("{:?}: Y", a),
         Z => println!("{:?}: Z", a),
+        //_ => println!("{:?}: Match all (default case)", a),
     }
 }
 
