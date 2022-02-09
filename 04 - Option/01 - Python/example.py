@@ -7,9 +7,9 @@ class A:
     def fun(self):
         result = 0
         for i in range(self.x):
-            result = result + i
-            self.y = self.y + 2
-            result = result - self.y
+            result += i
+            self.y += 2
+            result -= self.y
         return result
 
     def fun2(self, value):
